@@ -8,4 +8,5 @@
 #ifndef INCLUDING_OUT_FUNCTIONS_H_
 #define INCLUDING_OUT_FUNCTIONS_H_
 bool find_num_in_matrix(const int nums[][4] , int & rows , int & columns , const int number);
+void replace_string(char string [] , int length);
 #endif /* INCLUDING_OUT_FUNCTIONS_H_ */

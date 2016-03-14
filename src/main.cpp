@@ -43,6 +43,10 @@ int main()
 	cout << "Hello World!" << endl;
 	*/
 
+	char string [100] = "Hello World! Hello";
+	cout << string << endl;
+	replace_string(string , 100);
+	cout << string << endl;;
 
 }
 
