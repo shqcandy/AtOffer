@@ -7,6 +7,14 @@
 
 #ifndef INCLUDING_OUT_FUNCTIONS_H_
 #define INCLUDING_OUT_FUNCTIONS_H_
-bool find_num_in_matrix(const int nums[][4] , int & rows , int & columns , const int number);
+bool find_num_in_matrix(const int * nums , int & rows , int & columns , const int number);
 void replace_string(char string [] , int length);
+
+struct ListNode
+{
+	int key;
+	ListNode * next;
+};
+void tail_to_head_print(struct ListNode * list_head);
+
 #endif /* INCLUDING_OUT_FUNCTIONS_H_ */
